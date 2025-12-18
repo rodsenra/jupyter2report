@@ -1,3 +1,14 @@
+# About 
+
+This tiny project is a PoC to show how simple it is to extract info from Jupyter Notebooks
+
+The script main.py processes a ipynb file and creates:
+- A responsive HTML layout with captions on the left and charts on the right
+- Mobile-friendly design (stacks vertically on small screens)
+- Clean styling with proper typography and spacing
+- Base64-encoded images embedded directly in the HTML (no external files needed)
+
+# How
 
 The script (main.py) does the following:
 
@@ -8,15 +19,11 @@ The script (main.py) does the following:
 
   Usage
 
-  python main.py Sample.ipynb          # Outputs to report.html (default)
-  python main.py Sample.ipynb output.html  # Custom output filename
+  ```python main.py Sample.ipynb```
 
-  The Generated Report
+Outputs to report.html (default)
 
-  The script successfully processed your Sample.ipynb and created:
-  - A responsive HTML layout with captions on the left and charts on the right
-  - Mobile-friendly design (stacks vertically on small screens)
-  - Clean styling with proper typography and spacing
-  - Base64-encoded images embedded directly in the HTML (no external files needed)
+
+
 
  
